@@ -34,11 +34,18 @@ book sm
 ```
 [npm 插件](https://www.npmjs.com/package/gitbook-summary)  
 
+github-pages 一键发布插件
+```
+npm install -g gh-pages
+gh-pages -d _book
+```
+
+
 ## 三. 安装 atom
 ### 1. 下载
 [下载](https://atom-installer.github.com/v1.24.1/atom-amd64.deb?s=1520526466&ext=.deb)  
 
 ### 2. 安装插件
 表格功能： atom-csv-markdown  
-粘贴图片改路径：Markdown-img-paste -- 在 settings 中设置图片路径(超级喜欢，可是作者不维护了～) 
+粘贴图片改路径：Markdown-img-paste -- 在 settings 中设置图片路径(超级喜欢，可是作者不维护了～)
 同步预览：markdown-scroll-sync
