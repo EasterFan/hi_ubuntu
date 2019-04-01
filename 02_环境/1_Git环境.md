@@ -35,14 +35,15 @@ ssh -vT git@github.com
 先进入`cd ~/.gitconfig`,再修改
 ```bash
 [user]
-	email = xxx@gmail.com
-	name = EasterFan
+    email = xxxx@gmail.com
+    name = EasterFan
 
 
 
 [alias]
-	ci = commit
-	st = status
-	hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-	pu = push origin master
+    ci = commit
+    st = status
+    hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    pu = push origin master
+    puu = push origin master && gitbook build && gh-pages -d _book
 ```
