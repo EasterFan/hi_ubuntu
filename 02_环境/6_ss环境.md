@@ -1,4 +1,4 @@
-## 1.安装shandowsocks
+## 1.安装shadowsocks
 ```bash
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo apt-get update
@@ -17,7 +17,7 @@ sudo apt-get update
 sudo apt-get install google-chrome-stable
 ```
 
-## 3. SwitchOMyGa
+## 3. SwitchOmega
   - 从备份文件中下载插件和备份配置文件  
   - 安装插件  
   打开chrome浏览器，在浏览器地址栏输入“chrome://extensions/”，将刚下载的插件拖放进去，按提示操作即可完成安装。
