@@ -45,5 +45,4 @@ ssh -vT git@github.com
     st = status
     hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
     pu = push origin master
-    puu = push origin master && gitbook build && gh-pages -d _book
 ```
