@@ -15,6 +15,7 @@
         }
     },
     "plugins": [
+        "pageview-count",
         "-lunr",
         "-search",
         "-highlight",
@@ -106,7 +107,7 @@
            ]
        },
         "tbfed-pagefooter": {
-            "copyright": "No Start， No End",
+            "copyright": "No Start， No End   ",
             "modify_label": "Still laughing at：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
