@@ -12,7 +12,7 @@ git --version
 ## SSH密钥配置
 > 配置后不需要总输入密码
 
-1. 生成密钥 - -f指定位置和名称
+1. 生成密钥 -- 指定位置和名称
 ```bash
 # 生成密钥
 ssh-keygen -t rsa -C "xxxx@gmail.com" -f ~/.ssh/test_github
