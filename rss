@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[你好啊，ubuntu]]></title>
+        <description><![CDATA[最实用的 ubuntu 入门手册]]></description>
+        <link>https://easterland.me/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Mon, 01 Apr 2019 10:07:51 GMT</lastBuildDate>
+        <atom:link href="https://easterland.me/rss" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[easterfan]]></author>
+        <managingEditor><![CDATA[easterfan@163.com]]></managingEditor>
+        <webMaster><![CDATA[easterfan@163.com]]></webMaster>
+        <category><![CDATA[gitbook]]></category>
+        <item>
+            <title><![CDATA[开始]]></title>
+            <description><![CDATA[这是一个关于 ubuntu 环境搭建，软件配置的面向 Ubuntu 新手的开源项目。]]></description>
+            <link>https://easterland.me/</link>
+            <guid isPermaLink="true">https://easterland.me/</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://easterland.me/01_ 重装/README.html</link>
+            <guid isPermaLink="true">https://easterland.me/01_ 重装/README.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[（占坑，以后补）]]></description>
+            <link>https://easterland.me/01_ 重装/1_准备工作.html</link>
+            <guid isPermaLink="true">https://easterland.me/01_ 重装/1_准备工作.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[占坑]]></description>
+            <link>https://easterland.me/01_ 重装/2_安装过程.html</link>
+            <guid isPermaLink="true">https://easterland.me/01_ 重装/2_安装过程.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[桌面环境，采用图形界面换源：
+system settings > Software & Updates > Download from
+值改为阿里云源： http://mirrors.aliyun.com/ubuntu]]></description>
+            <link>https://easterland.me/01_ 重装/3_初始化设置.html</link>
+            <guid isPermaLink="true">https://easterland.me/01_ 重装/3_初始化设置.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[一. 卸载不常用软件]]></title>
+            <description><![CDATA[（以前改过，现在默认dash也不错～，占坑）]]></description>
+            <link>https://easterland.me/01_ 重装/4_系统美化.html</link>
+            <guid isPermaLink="true">https://easterland.me/01_ 重装/4_系统美化.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://easterland.me/02_环境/README.html</link>
+            <guid isPermaLink="true">https://easterland.me/02_环境/README.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[先进入cd ~/.gitconfig,再修改]]></description>
+            <link>https://easterland.me/02_环境/1_Git环境.html</link>
+            <guid isPermaLink="true">https://easterland.me/02_环境/1_Git环境.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[nvm是一个开源的 Node 版本管理器，通过简单的 bash 脚本来管理、切换多个 Node.js 版本,使用 nvm 可以安装官网最新版本之前的任意版本,可以任意切换不同版本]]></description>
+            <link>https://easterland.me/02_环境/2_nodejs环境.html</link>
+            <guid isPermaLink="true">https://easterland.me/02_环境/2_nodejs环境.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[至此，jekyll环境已经安装完成，进入博客仓库，运行]]></description>
+            <link>https://easterland.me/02_环境/3_jekyll环境.html</link>
+            <guid isPermaLink="true">https://easterland.me/02_环境/3_jekyll环境.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[一些其他操作]]></description>
+            <link>https://easterland.me/02_环境/4_gitbook环境.html</link>
+            <guid isPermaLink="true">https://easterland.me/02_环境/4_gitbook环境.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[可以参考这个博客
+http://topspeedsnail.com/ubuntu16-install-java-jdk/]]></description>
+            <link>https://easterland.me/02_环境/5_Java环境.html</link>
+            <guid isPermaLink="true">https://easterland.me/02_环境/5_Java环境.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[对版本没有太高要求的话，在 https://www.google.cn/chrome/可下载（中国版？）]]></description>
+            <link>https://easterland.me/02_环境/6_ss环境.html</link>
+            <guid isPermaLink="true">https://easterland.me/02_环境/6_ss环境.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://easterland.me/02_环境/7_chrome环境.html</link>
+            <guid isPermaLink="true">https://easterland.me/02_环境/7_chrome环境.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://easterland.me/03_利器/README.html</link>
+            <guid isPermaLink="true">https://easterland.me/03_利器/README.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[下载后解压运行，然后登录学生账号。]]></description>
+            <link>https://easterland.me/03_利器/1_大而全.html</link>
+            <guid isPermaLink="true">https://easterland.me/03_利器/1_大而全.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[peek]]></title>
+            <description><![CDATA[peek 用于录屏成gif/MP4 进行展示, github地址
+（虽然linux版本一直停留在0.75，但完全够我用）]]></description>
+            <link>https://easterland.me/03_利器/2_小而美.html</link>
+            <guid isPermaLink="true">https://easterland.me/03_利器/2_小而美.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[作者也不维护了，不过还能用]]></description>
+            <link>https://easterland.me/03_利器/3_通讯向.html</link>
+            <guid isPermaLink="true">https://easterland.me/03_利器/3_通讯向.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[执行mysql -u root -p 密码即可登录数据库，ctr+z可退出。
+密码：123456]]></description>
+            <link>https://easterland.me/03_利器/4_开发向.html</link>
+            <guid isPermaLink="true">https://easterland.me/03_利器/4_开发向.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[尾巴]]></title>
+            <description><![CDATA[bashrc]]></description>
+            <link>https://easterland.me/04_尾巴/README.html</link>
+            <guid isPermaLink="true">https://easterland.me/04_尾巴/README.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+    </channel>
+</rss>
