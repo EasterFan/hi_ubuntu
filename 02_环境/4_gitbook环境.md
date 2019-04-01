@@ -47,5 +47,5 @@ gh-pages -d _book
 
 ### 2. 安装插件
 表格功能： atom-csv-markdown  
-粘贴图片改路径：Markdown-img-paste -- 在 settings 中设置图片路径(超级喜欢，可是作者不维护了～)
+粘贴图片改路径：Markdown-img-paste -- 在 settings 中设置图片路径(超级喜欢，可是作者不维护了～)  
 同步预览：markdown-scroll-sync
