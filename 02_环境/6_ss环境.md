@@ -40,7 +40,7 @@ vim ~/.bashrc
 alias ss="http_proxy=http://localhost:8123"
 
 source ~/.bashrc
-# 验证
+# 验证(ip.gs 或 cip.cc 都可以)
 ss curl ip.gs
 ```
 
