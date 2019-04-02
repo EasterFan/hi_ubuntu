@@ -18,14 +18,25 @@ sudo apt-get install google-chrome-stable
 ```
 
 ## 3. SwitchyOmega
-  - 从备份文件中下载插件和备份配置文件  
-  - 安装插件  
-  打开chrome浏览器，在浏览器地址栏输入“chrome://extensions/”，将刚下载的插件拖放进去，按提示操作即可完成安装。
-  - 将浏览器配置脚本导入插件  
+
+#### 1. 下载安装
+```bash
+# 下载 SwitchyOmega 和它的配置文件
+wget https://github.com/EasterFan/hi_ubuntu/blob/master/04_%E5%B0%BE%E5%B7%B4/Proxy-SwitchyOmega_v2.3.21.crx
+
+wget https://github.com/EasterFan/hi_ubuntu/blob/master/04_%E5%B0%BE%E5%B7%B4/ChromeOmegaOptions.bak
+```
+打开chrome浏览器，在浏览器地址栏输入“chrome://extensions/”，将刚下载的插件拖放进去，按提示操作即可完成安装。
+
+#### 2. 配置
+> 将浏览器配置脚本导入插件(这是我的配置文件，可以直接导入，也可以根据需要自己修改)  
+
 ![](../assets/导入配置.png)   
 将端口改为“1080”，然后点“应用选项”  
 ![](../assets/修改配置.png)   
 在谷歌首页菜单点击插件选择“自动切换”，完成。
+
+（我当前备份的 SwitchyOmega 是 v2.3.21，安装成功后可以到谷歌应用商店更新到最新版～）  
 
 ## 4. ss设为开机自启
 - 在ubuntu software里搜索并安装“startup”
