@@ -4,7 +4,7 @@
         <description><![CDATA[最实用的 ubuntu 入门手册]]></description>
         <link>https://easterland.me/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 Apr 2019 01:51:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Apr 2019 02:14:18 GMT</lastBuildDate>
         <atom:link href="https://easterland.me/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[easterfan]]></author>
         <managingEditor><![CDATA[easterfan@163.com]]></managingEditor>
@@ -138,8 +138,7 @@ http://topspeedsnail.com/ubuntu16-install-java-jdk/]]></description>
         </item>
         <item>
             <title><![CDATA[No title]]></title>
-            <description><![CDATA[执行mysql -u root -p 密码即可登录数据库，ctr+z可退出。
-密码：123456]]></description>
+            <description><![CDATA[官网下载要注册很麻烦～备份一个]]></description>
             <link>https://easterland.me/03_利器/4_开发向.html</link>
             <guid isPermaLink="true">https://easterland.me/03_利器/4_开发向.html</guid>
             <dc:creator><![CDATA[easterfan]]></dc:creator>
