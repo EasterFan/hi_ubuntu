@@ -17,7 +17,7 @@ sudo apt-get update
 sudo apt-get install google-chrome-stable
 ```
 
-## 3. SwitchOmega
+## 3. SwitchyOmega
   - 从备份文件中下载插件和备份配置文件  
   - 安装插件  
   打开chrome浏览器，在浏览器地址栏输入“chrome://extensions/”，将刚下载的插件拖放进去，按提示操作即可完成安装。
@@ -32,3 +32,25 @@ sudo apt-get install google-chrome-stable
 - 打开startup，将shadowsocks添加到开机启动项即可。
 
 ## 5. ss 代理终端
+ss 代理终端有很多种，第三方软件代理，直接在命令后加参数，或者修改配置文件，修改配置文件相比更方便，而且自己可以控制只对特定的命令进行代理(主要代理 curl wget)。  
+```bash
+vim ~/.bashrc
+
+# ss terminal cross fire alias
+alias ss="http_proxy=http://localhost:8123"
+
+source ~/.bashrc
+# 验证
+ss curl ip.gs
+```
+
+上面的配置代理对 git clone 命令无效（协议不同），ss代理 git 需要配置：  
+```bash
+vim ~/.gitconfig
+
+[alias]
+    clones = clone --config http.proxy=localhost:8123
+
+# 验证
+git clones + [git 地址]
+```
