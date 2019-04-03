@@ -16,7 +16,7 @@ source ~/.nvm/nvm.sh
 export NVM_DIR="/Users/YOURUSERNAME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 # 检验
-source  .bashrc 
+source  ~/.bashrc 
 nvm --version
 ```
 
