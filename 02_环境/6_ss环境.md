@@ -1,11 +1,11 @@
-## 1.安装shadowsocks
+# 1.安装shadowsocks
 ```bash
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
 
-## 2.下载Google
+# 2.下载Google
 > 也可以链接到自己的仓库下载
 
 对版本没有太高要求的话，在 [https://www.google.cn/chrome/](https://www.google.cn/chrome/)可下载（中国版？）
@@ -17,9 +17,9 @@ sudo apt-get update
 sudo apt-get install google-chrome-stable
 ```
 
-## 3. SwitchyOmega
+# 3. SwitchyOmega
 
-#### 1. 下载安装
+## 1. 下载安装
 ```bash
 # 下载 SwitchyOmega 和它的配置文件
 wget https://github.com/EasterFan/hi_ubuntu/blob/master/04_%E5%B0%BE%E5%B7%B4/Proxy-SwitchyOmega_v2.3.21.crx
@@ -28,7 +28,7 @@ wget https://github.com/EasterFan/hi_ubuntu/blob/master/04_%E5%B0%BE%E5%B7%B4/Ch
 ```
 打开chrome浏览器，在浏览器地址栏输入“chrome://extensions/”，将刚下载的插件拖放进去，按提示操作即可完成安装。
 
-#### 2. 配置
+## 2. 配置
 > 将浏览器配置脚本导入插件(这是我的配置文件，可以直接导入，也可以根据需要自己修改)  
 
 ![](../assets/导入配置.png)   
@@ -38,12 +38,14 @@ wget https://github.com/EasterFan/hi_ubuntu/blob/master/04_%E5%B0%BE%E5%B7%B4/Ch
 
 （我当前备份的 SwitchyOmega 是 v2.3.21，安装成功后可以到谷歌应用商店更新到最新版～）  
 
-## 4. ss设为开机自启
+# 4. ss设为开机自启
 - 在ubuntu software里搜索并安装“startup”
 - 打开startup，将shadowsocks添加到开机启动项即可。
 
-## 5. ss 代理终端
+# 5. ss 代理终端
 ss 代理终端有很多种，第三方软件代理，直接在命令后加参数，或者修改配置文件，修改配置文件相比更方便，而且自己可以控制只对特定的命令进行代理(主要代理 curl wget)。  
+
+## 代理 http/https , 加速 wget curl
 ```bash
 vim ~/.bashrc
 
@@ -55,7 +57,8 @@ source ~/.bashrc
 ss curl ip.gs
 ```
 
-上面的配置代理对 git clone 命令无效（协议不同），ss代理 git 需要配置：  
+## 代理 https ， 加速 git clone
+其实这一步配置和上一个是一样的，都是 ss 代理 https 协议，单独列出来是为了和下面代理 git 协议对称～
 ```bash
 vim ~/.gitconfig
 
@@ -64,4 +67,19 @@ vim ~/.gitconfig
 
 # 验证
 git clones + [git 地址]
+```
+配置完成后，`git clone + https` 仓库 时，速度一般在 1M 上下（不加速时是0-30k）。
+
+## 代理 git ， 加速 git clone/pull  
+clone 别人的仓库时可以加速，但是走git 协议 git clone git pull 自己的仓库，依然是几k。  
+ss 走 socket 协议，git 走 git 协议，所以要配置 ss 代理 git 协议。  
+
+花了几天时间找各种 socks 代理 git 的方法，太复杂了，实际上 git 协议底层是走 ssh 协议的，然后曲线救国，通过代理 ssh 达到间接代理 git 协议的目的。
+
+```bash
+vim ~/.ssh/config
+
+Host github.com
+User git
+ProxyCommand nc -x localhost:1080 %h %p
 ```
