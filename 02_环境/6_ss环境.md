@@ -39,8 +39,8 @@ wget https://github.com/EasterFan/hi_ubuntu/blob/master/04_%E5%B0%BE%E5%B7%B4/Ch
 （我当前备份的 SwitchyOmega 是 v2.3.21，安装成功后可以到谷歌应用商店更新到最新版～）  
 
 # 4. ss设为开机自启
-- 在ubuntu software里搜索并安装“startup”
-- 打开startup，将shadowsocks添加到开机启动项即可。
+终端打开 `gnome-session-properties` (或者直接在 dock 里搜**启动应用程序**)  
+![](../assets/02-ss-startup.png)
 
 # 5. ss 代理终端
 ss 代理终端有很多种，第三方软件代理，直接在命令后加参数，或者修改配置文件，修改配置文件相比更方便，而且自己可以控制只对特定的命令进行代理(主要代理 curl wget)。  
