@@ -40,6 +40,11 @@ npm install -g gh-pages
 gh-pages -d _book
 ```
 
+两个常用的批量创建文件夹和文件的命令：  
+```bash
+mkdir {1..9}_
+touch {1..9}_/README.md
+```
 
 ## 三. 安装 atom
 ### 1. 下载
