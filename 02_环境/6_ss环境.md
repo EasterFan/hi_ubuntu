@@ -31,9 +31,9 @@ wget https://github.com/EasterFan/hi_ubuntu/blob/master/04_%E5%B0%BE%E5%B7%B4/Ch
 ## 2. 配置
 > 将浏览器配置脚本导入插件(这是我的配置文件，可以直接导入，也可以根据需要自己修改)  
 
-![](../assets/导入配置.png)   
+![](../assets/02-ss-import-config.png)   
 将端口改为“1080”，然后点“应用选项”  
-![](../assets/修改配置.png)   
+![](../assets/02-ss-open-config.png)   
 在谷歌首页菜单点击插件选择“自动切换”，完成。
 
 （我当前备份的 SwitchyOmega 是 v2.3.21，安装成功后可以到谷歌应用商店更新到最新版～）  
