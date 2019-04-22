@@ -55,13 +55,18 @@ touch {1..9}_/README.md
 粘贴图片改路径：Markdown-img-paste -- 在 settings 中设置图片路径(超级喜欢，可是作者不维护了～)  
 同步预览：markdown-scroll-sync
 
-## 四. 初始化一个项目
+## 四. 初始化一个项目  
+
+---> 初始化书结构(readme, summary, book.json)  
+---> 新建gh-pages分支并将两个分支提交到远程   
+---> 远程仓库开启 github pages
+ 
  
 ```bash
 # 创建一个gh-pages分支 
 git checkout gh-pages
 
-#  推送本地分支到远程
+#  推送本地分支到远程(推送后到仓库的 settings 里开启 github pages)
 git push origin gh-pages:gh-pages
 
 # 源码推送到 github
@@ -70,7 +75,7 @@ git pu
 # 分支发布
 puu
 ```
-注puu - 在 .bashrc 下的命令简写：  
+注puu - 在 `~/.bashrc` 下的命令简写：  
 ```bash
 # public gitbook to gh-pages in one tap -- by easter
 alias puu="gitbook build && gh-pages -d _book"
