@@ -4,7 +4,7 @@
         <description><![CDATA[最实用的 ubuntu 入门手册]]></description>
         <link>https://easterland.me/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 18 Jun 2019 05:33:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Jun 2019 05:49:27 GMT</lastBuildDate>
         <atom:link href="https://easterland.me/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[easterfan]]></author>
         <managingEditor><![CDATA[easterfan@163.com]]></managingEditor>
@@ -106,6 +106,13 @@ http://topspeedsnail.com/ubuntu16-install-java-jdk/]]></description>
             <title><![CDATA[No title]]></title>
             <link>https://easterland.me/02_环境/7_chrome环境.html</link>
             <guid isPermaLink="true">https://easterland.me/02_环境/7_chrome环境.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[零. 准备]]></title>
+            <description><![CDATA[v2ray各平台下载地址]]></description>
+            <link>https://easterland.me/02_环境/8_v2ray环境.html</link>
+            <guid isPermaLink="true">https://easterland.me/02_环境/8_v2ray环境.html</guid>
             <dc:creator><![CDATA[easterfan]]></dc:creator>
         </item>
         <item>
