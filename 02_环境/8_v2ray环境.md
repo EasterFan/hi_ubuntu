@@ -14,11 +14,11 @@ cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
 ```
 > 推荐使用解压版，脚本安装虽然方便，卸载要一个个删除程序、配置文件、日志，卸载不完全解压版的也运行失败，推荐全局查找 `find / -name v2ray* `,逐个删除
 
-## 准备
+# 零. 准备
 我的系统是 Ubuntu 16.04 LTS，并且 v2ray 服务器端已经配置好（已经把 `config.json` 文件下载到本地），现在要做的是配置本地环境、配置浏览器代理两个部分。
 
 
-## 配置本地环境
+# 一. 配置本地环境
 解压生成 `v2ray-linux-64` 文件夹后，删除里面的`vpoint_vmess_freedom.json`，这是默认的配置文件，然后将服务端的`config.json`文件替换到这个文件夹中(v2ray与ss的一个不同就是前者没有客户端服务端之分，客户端和服务端共用一个配置文件`config.json`)。  
 
 然后运行  
@@ -28,11 +28,11 @@ sudo ./v2ray
 ![](assets/8_v2ray环境-f85d011d.png)
 这样表示 v2ray 已经处于运行状态（但是还不能用）
 
-## 配置浏览器代理switchOmega
-### 1. 新建代理模式
+# 二. 配置浏览器代理switchOmega
+## 1. 新建代理模式
 ![](assets/8_v2ray环境-e6e2f161.png)
 
-### 2. 设置代理端口
+## 2. 设置代理端口
 ![](assets/8_v2ray环境-2505f993.png)  
 ```bash
 # 下面填这个（我设置的ss和v2ray都代理 1080端口，所以两者不能同时使用～）
@@ -48,7 +48,7 @@ sudo ./v2ray
 然后打开浏览器，就可以正常上网了
 
 
-## 加个启动小图标
+# 三. 加个启动小图标
 为了更方便的双击打开，做一个桌面项，  
 v2ray.desktop  
 ```bash
@@ -77,6 +77,6 @@ Categories=Network;Internet;
 阔爱!!  O(∩_∩)O~~
 
 
-## 参考
+# 四. 参考
 - [ssr、v2ray、projectV 的联系与区别](https://www.zhuanyewanjia.com/news/180829163910548)
 - [v2ray 官网](https://v2ray.com/)
