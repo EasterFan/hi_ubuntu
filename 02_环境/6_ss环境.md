@@ -1,4 +1,4 @@
-# 1.安装shadowsocks
+# 1.安装shadowsocks-qt5
 ```bash
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo apt-get update
