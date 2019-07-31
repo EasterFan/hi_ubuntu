@@ -4,7 +4,7 @@
         <description><![CDATA[最实用的 ubuntu 入门手册]]></description>
         <link>https://easterland.me/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 18 Jun 2019 05:49:27 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jul 2019 07:30:05 GMT</lastBuildDate>
         <atom:link href="https://easterland.me/rss" rel="self" type="application/rss+xml"/>
         <author><![CDATA[easterfan]]></author>
         <managingEditor><![CDATA[easterfan@163.com]]></managingEditor>
@@ -113,6 +113,13 @@ http://topspeedsnail.com/ubuntu16-install-java-jdk/]]></description>
             <description><![CDATA[v2ray各平台下载地址]]></description>
             <link>https://easterland.me/02_环境/8_v2ray环境.html</link>
             <guid isPermaLink="true">https://easterland.me/02_环境/8_v2ray环境.html</guid>
+            <dc:creator><![CDATA[easterfan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[一. 开始]]></title>
+            <description><![CDATA[好在终端还能正常打开，结合我多年来丰富的被坑经验，3秒钟后我猜测是磁盘爆满卡机了。]]></description>
+            <link>https://easterland.me/02_环境/9_清理环境.html</link>
+            <guid isPermaLink="true">https://easterland.me/02_环境/9_清理环境.html</guid>
             <dc:creator><![CDATA[easterfan]]></dc:creator>
         </item>
         <item>
